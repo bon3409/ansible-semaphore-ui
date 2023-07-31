@@ -1,0 +1,10 @@
+---
+- hosts: local
+
+  become: true
+  become_user: root
+  pre_tasks:
+    - import_tasks: ./roles/apt/tasks/main.yaml
+
+  roles:
+    - python

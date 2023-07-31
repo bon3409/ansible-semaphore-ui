@@ -1,0 +1,6 @@
+.ansible/
+.ssh/
+.vagrant/
+.vscode/
+.ash_history
+mysql/
