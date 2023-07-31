@@ -98,7 +98,7 @@
 	| `[local:vars]`                 | 設定 hosts 的連線資訊                                                                                    |
 	| `ansible_ssh_host`             | 要操作的 host 主機 ip，這裡可以用 `Vagrantfile` 設定的 `private_network` ip                              |
 	| `ansible_ssh_port`             | ansible 要用 ssh 連線進去的 port，通常都會是 `22`                                                        |
-	| `ansible_user`                 | ansible ssh 連線進去的使用者名稱，如果是用 [[Vagrant (虛擬機器) \| Vagrant]] 的話，user 要使用 `vagrant` |
+	| `ansible_user`                 | ansible ssh 連線進去的使用者名稱，如果是用 Vagrant 的話，user 要使用 `vagrant` |
 	| `ansible_ssh_private_key_file` | ansible ssh 連線要使用的 private_key                                                                     |
 
 ---
